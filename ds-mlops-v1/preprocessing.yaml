@@ -1,0 +1,11 @@
+# data
+dataset:
+  data: data/raw.csv
+  encoding: iso-8859-1
+
+pipeline:
+  pipeline01: decisiontree
+
+target: 
+  target: match
+
